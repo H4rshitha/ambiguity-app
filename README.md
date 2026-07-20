@@ -1,10 +1,10 @@
-# Ambiguity AI App 🔍💬
+# Ambiguity AI App 
 
 The **Ambiguity AI App** is a full-stack web application designed to detect, highlight, and analyze ambiguous words within any input text. By combining natural language processing (NLP) lexical analysis with modern deep-learning sentence embeddings, the app identifies words with multiple potential meanings and helps disambiguate their specific sense within the sentence context.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Interactive Ambiguity Detection:** Analyzes input text and automatically highlights words that carry multiple meanings (senses) in yellow.
 *   **Context-Aware Disambiguation (Sentence Embeddings):** Uses a pre-trained **Sentence Transformer** model (`BAAI/bge-base-en-v1.5`) as a fallback semantic layer to compare the surrounding text with WordNet sense definitions, calculating context similarity scores.
@@ -14,7 +14,7 @@ The **Ambiguity AI App** is a full-stack web application designed to detect, hig
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 *   **Core Framework:** React 19 (via Vite)
@@ -33,7 +33,7 @@ The **Ambiguity AI App** is a full-stack web application designed to detect, hig
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ambiguity-ai-app/
@@ -68,7 +68,7 @@ ambiguity-ai-app/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 *   **Node.js** (v18 or higher)
@@ -127,7 +127,7 @@ Make sure to configure your connection strings if using a custom database host.
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 1.  Open the application frontend in your browser.
 2.  In the text area, type or paste the text you want to evaluate (e.g., *"The bank of the river had a high slope, but the bank offered a loan."*).
