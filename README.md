@@ -98,7 +98,7 @@ Make sure to configure your connection strings if using a custom database host.
     ```bash
     pip install -r requirements.txt
     ```
-4.  Download the required NLTK corpuses (WordNet, Punkt, and Average Perceptron Tagger):
+4.  Download the required NLTK corpuses (WordNet, Punkt and Average Perceptron Tagger):
     ```python
     python -c "import nltk; nltk.download('wordnet'); nltk.download('punkt'); nltk.download('averaged_perceptron_tagger')"
     ```
@@ -130,7 +130,7 @@ Make sure to configure your connection strings if using a custom database host.
 ## Usage
 
 1.  Open the application frontend in your browser.
-2.  In the text area, type or paste the text you want to evaluate (e.g., *"The bank of the river had a high slope, but the bank offered a loan."*).
+2.  In the text area type or paste the text you want to evaluate (e.g., *"The bank of the river had a high slope, but the bank offered a loan."*).
 3.  Click the **Analyze** button.
 4.  Words recognized as ambiguous will highlight. Hover over any highlighted word to inspect its semantic matches:
     *   **Sense Definition**: The definition corresponding to the detected sense.
