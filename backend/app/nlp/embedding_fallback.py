@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer("BAAI/bge-base-en-v1.5")
 
 def embedding_fallback(context_text, senses):
     context_embedding = model.encode(context_text, convert_to_tensor=True)
