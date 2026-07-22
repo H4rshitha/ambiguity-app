@@ -7,7 +7,7 @@ The **Ambiguity AI App** is a full stack web application designed to detect, hig
 ## Key Features
 
 *   **Interactive Ambiguity Detection:** Analyzes input text and automatically highlights words that carry multiple meanings (senses) in yellow.
-*   **Context-Aware Disambiguation (Sentence Embeddings):** Uses a pre trained **Sentence Transformer** model (`BAAI/bge-base-en-v1.5`) as a fallback semantic layer to compare the surrounding text with WordNet sense definitions, calculating context similarity scores.
+*   **Context Aware Disambiguation (Sentence Embeddings):** Uses a pre trained **Sentence Transformer** model (`BAAI/bge-base-en-v1.5`) as a fallback semantic layer to compare the surrounding text with WordNet sense definitions, calculating context similarity scores.
 *   **Intuitive Tooltips & UI:** Hovering over any highlighted ambiguous word dynamically displays the matched definition and the calculated similarity score.
 *   **History Logs & Analytics:** Persistently logs all analysis results, including overall ambiguity scores, text details, and timestamps to MongoDB.
 *   **Visual History Page:** Offers a clean portal to review past analyses.
