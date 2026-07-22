@@ -1,6 +1,6 @@
 # Ambiguity AI App 
 
-The **Ambiguity AI App** is a full stack web application designed to detect, highlight and analyze ambiguous words within any input text. By combining natural language processing (NLP) lexical analysis with modern deep learning sentence embeddings, the app identifies words with multiple potential meanings and helps disambiguate their specific sense within the sentence context.
+The **Ambiguity AI App** is a full stack web application designed to detect, highlight and analyze ambiguous words within any input text. By combining natural language processing lexical analysis with modern deep learning sentence embeddings, the app identifies words with multiple potential meanings and helps disambiguate their specific sense within the sentence context.
 
 ---
 
